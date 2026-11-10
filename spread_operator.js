@@ -12,3 +12,8 @@ const add_user =["mahi",...user,"navya"]
 console.log( add_user)
 // Output: [ 'Cherry', 'Apple', 'Banana', 'Date' ]
 // [ 'mahi', 'pallavi', 'vamshi', 'navya' ]
+
+
+
+
+
