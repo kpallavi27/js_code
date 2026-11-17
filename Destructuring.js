@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // Destructuring in JavaScript is a way to extract values from arrays or properties from objects and store them directly into variables.
 // Instead of writing more code to access each value, destructuring gives us a shorter way.
 
@@ -22,4 +22,4 @@ const { name, role } = user;
 console.log("name of user:",name);
 console.log("role of user:",role);
 
->>>>>>> 90237e90a0e6cabcb8a371c774539c99c869d3d4
+
