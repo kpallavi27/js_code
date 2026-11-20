@@ -1,8 +1,11 @@
-const fruits = ["Apple", "Banana", "orange"];
-const moreFruits = ["Cherry", ...fruits, "Date"];
-console.log(moreFruits);
+const morningTasks = ["Wake up", "Brush teeth"];
+const eveningTasks = ["Read book", "Sleep"];
 
-const spreadUsers = ["pallavi", "vamshi"];
-const add_user = ["mahi", ...spreadUsers, "navya"];
-console.log(add_user); // Output: [ 'Cherry', 'Apple', 'Banana', 'Date' ]
-// [ 'mahi', 'pallavi', 'vamshi', 'navya' ]
+const fullDayRoutine = [
+  ...morningTasks,
+  "Eat breakfast", // added right in the middle
+  ...eveningTasks
+];
+
+console.log(fullDayRoutine);
+// ["Wake up", "Brush teeth", "Eat breakfast", "Read book", "Sleep"]
