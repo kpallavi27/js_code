@@ -1,4 +1,3 @@
-
 const fruits = ["Apple", "Banana","orange"];
 const moreFruits = ["Cherry", ...fruits, "Date"];
 
