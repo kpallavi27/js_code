@@ -22,12 +22,12 @@ const mySavings = 100;
 let walletBalance = calculateTotalMoney(myCash, mySavings);
 console.log(buildSummary("priya", walletBalance))
 
-
 walletBalance = spendMoney(walletBalance, 25);
 console.log(buildSummary("Riya", walletBalance)); 
+
 // Try spending more than available
 walletBalance = spendMoney(walletBalance, 200);
-console.log(buildSummary("Riya", walletBalance)); 
+console.log(buildSummary("siya", walletBalance)); 
 
 
 
